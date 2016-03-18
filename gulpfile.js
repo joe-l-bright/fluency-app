@@ -141,12 +141,12 @@ gulp.task('copy:normalize', function () {
 gulp.task('lint:js', function () {
     return gulp.src([
         'gulpfile.js',
-        dirs.src + '/js/*.js',
+        //dirs.src + '/js/*.js',
         dirs.test + '/*.js'
-    ]).pipe(plugins.jscs());
-      //.pipe(plugins.jshint())
-      //.pipe(plugins.jshint.reporter('jshint-stylish'))
-      //.pipe(plugins.jshint.reporter('fail'));
+    ]).pipe(plugins.jscs())
+      .pipe(plugins.jshint())
+      .pipe(plugins.jshint.reporter('jshint-stylish'))
+      .pipe(plugins.jshint.reporter('fail'));
 });
 
 
