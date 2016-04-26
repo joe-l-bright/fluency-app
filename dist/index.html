@@ -17,24 +17,41 @@
 </head>
 <body>
 
-<h1>reading literacy app</h1>
-
-<p>gavin and jacob. please fill in...</p>
-
-<textarea id="text1" style="width: 100%" rows=10>
-    unfortunately the children gobbled up the treats so fast that the old woman had a hard time keeping her supply of flour and spices to continue making the batches of gingerbread.
-</textarea>
-
-<div class="right">
-    <button id="start_button" onclick="startButton(event)">start the listener</button>
+<div class="center">
+    <h1>Star Reader</h1>
+    <p>provide instructions...</p>
+    <br>
 </div>
 
-<span id="interim_span" class="interim"></span>
-<textarea id="final_span" style="width: 100%" class="final"></textarea>
+<div class="center">
+    <textarea id="text1" style="width: 80%" rows=10>
+    yellow why how when green dog cat tree lizard bone cloud mary trunk
+    </textarea>
+</div>
 
-<input type="button" onclick="launch()" value="compute diff">
+<div class="center">
+    <button id="start_button" onclick="startButton(event)">Ready to Talk!</button>
+</div>
 
-<div id="outputdiv"></div>
+<br>
+<br>
+
+<div class="center">
+    <span id="interim_span" class="interim"></span>
+</div>
+
+<div class="center">
+    <textarea id="final_span" style="width: 80%" class="final"></textarea>
+</div>
+
+<div class="center">
+    <button id="score_button" onclick="launch()">Ready to Score!</button>
+</div>
+
+
+<div class="center">
+    <div id="outputdiv"></div>
+</div>
 
 </body>
 </html>
