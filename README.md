@@ -19,8 +19,8 @@ way that you want.
 ## Quick start
 
 Choose one of the following options:
-
 1. Download the latest stable release from
+
    [html5boilerplate.com](https://html5boilerplate.com/) or create a
    custom build using [Initializr](http://www.initializr.com).
 2. Clone the git repo — `git clone
